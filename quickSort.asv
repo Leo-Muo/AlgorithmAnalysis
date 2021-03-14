@@ -1,8 +1,0 @@
-function quickSort(Array,first,last)
-    if first < last
-        pPivot = partitionQS(Array,first, last); % Partitioning the Array
-        quickSort(A,first,pPivot-1);  % Sorting the left side of the pivot 
-        quickSort(A,pPivot-1,first);
-    end
-         
-end
