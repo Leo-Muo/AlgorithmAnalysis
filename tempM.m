@@ -1,5 +1,5 @@
-A = [11 10 8 7 5 9 1];
+A = [25 10 6 8 7 3 4 1 99];
 left = 1;
-right = length(A);
+len = length(A);
 
-A = merge_Sort(A,left,right);
+A = merge_Sort(A,len);
